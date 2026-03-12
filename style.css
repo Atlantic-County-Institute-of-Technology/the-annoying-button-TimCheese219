@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#score {
+    font-size: 140px;
+}
+
+.button {
+    color: whitesmoke;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 30px 0px 0px grey;
+    font-size: 32px;
+}
+
+.button:active{
+    transform: translateY(10px);
+    box-shadow: 0 20px 0 0 grey;
+}
+
+
+.style.transform{
+    background-color: green;
+    color: white;
+}
+
+@keyframes .style.transform {
+    0%{
+        rotate(0deg);
+    }
+    50%{
+        rotate(180deg);
+    }
+    100%{
+        rotate(360deg);
+    }
+}
