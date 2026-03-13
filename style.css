@@ -31,14 +31,4 @@ body {
     color: white;
 }
 
-@keyframes .style.transform {
-    0%{
-        rotate(0deg);
-    }
-    50%{
-        rotate(180deg);
-    }
-    100%{
-        rotate(360deg);
-    }
-}
+
